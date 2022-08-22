@@ -7,13 +7,19 @@ import { AppComponent } from './app.component';
 import { CategoryComponent } from './components/category/category.component';
 import { CategoriesListComponent } from './components/categories-list/categories-list.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ConnexionComponent } from './components/connexion/connexion.component';
+import { InscriptionComponent } from './components/inscription/inscription.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CategoryComponent,
     CategoriesListComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    ConnexionComponent,
+    InscriptionComponent
   ],
   imports: [
     BrowserModule,
