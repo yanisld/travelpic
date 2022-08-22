@@ -50,8 +50,8 @@
     font-weight: 600;
     padding: 10px 20px 10px 20px;
     color: #7f7f7f;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     border: 1px solid #f7f7f7;
     background: #f7f7f7;
 }
@@ -61,6 +61,6 @@
     padding: 10px;
     border: 1px solid #f7f7f7;
     cursor: pointer;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }

@@ -45,10 +45,11 @@
             "id": "1",
             "title": "Cathédrale de Strasbourg",
             "description": "Visite de la cathédrale de Strasbourg",
-            "imageUrl": "https://cdn.pixabay.com/photo/2019/10/22/19/40/cathedral-4569674_960_720.jpg",
+            "imgUrl": "https://cdn.pixabay.com/photo/2019/10/22/19/40/cathedral-4569674_960_720.jpg",
             "date": "2022-08-28T13:45:00.000Z",
             "location": "Strasbourg",
-            "kilometers": 1
+            "kilometers": 1,
+            "idCategory": 1
         }
     ]
 }

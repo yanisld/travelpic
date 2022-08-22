@@ -1,3 +1,11 @@
-<ul *ngFor="let category of categories">
-    <li>{{ category.title }}</li>
-</ul>
+<main class="main">
+    <div class="categories-list">
+        <div class="categories-list_item" *ngFor="let category of categories" [ngStyle]="{'background-image': 'url(' + category.imgUrl + ')'}">
+            <a href="#" class="categories-list_item_title">
+                <span>{{ category.title | uppercase }}</span>
+            </a>
+        </div>
+    </div>
+</main>
+
+
