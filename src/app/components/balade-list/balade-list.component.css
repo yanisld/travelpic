@@ -25,3 +25,11 @@
 .balade-list_item_image {
     margin: 10px 0;
 }
+.balade-info {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+}
+.balade-info_item {
+    margin-right: 40px;
+}

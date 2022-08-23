@@ -8,11 +8,11 @@ import { Balade } from '../models/balade.model';
 })
 export class BaladeService {
 
-  private apiUrl = 'http://localhost:3000/category';
+  private apiUrl = 'http://localhost:3000/balade';
 
   constructor(private httpClient: HttpClient) { }
 
   getBaladeByCategory(idCategory: number): Observable<Balade[]> {
-    return this.httpClient.get<Balade[]>(`${this.apiUrl}/${idCategory}/balade`);
+    return this.httpClient.get<Balade[]>(`${this.apiUrl}?idCategory=${idCategory}`);
   }
 }

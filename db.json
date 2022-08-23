@@ -60,6 +60,16 @@
             "location": "Strasbourg",
             "kilometers": 5,
             "idCategory": 1
+        },
+        {
+            "id": "3",
+            "title": "Le Jardin du Luxembourg",
+            "description": "Visite du jardin du Luxembourg",
+            "imgUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/26/78/c6/park.jpg?w=1200&h=-1&s=1",
+            "date": "2022-08-28T13:45:00.000Z",
+            "location": "Paris",
+            "kilometers": 5,
+            "idCategory": 3
         }
     ]
 }

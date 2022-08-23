@@ -1,16 +1,14 @@
 <main class="main">
     <div class="balade-list">
-        <div *ngFor="let balade of balades">
-            <div class="balade-list_item" *ngIf="balade.idCategory == id">
+        <div class="balade-list_item" *ngFor="let balade of balades">
                 <h3 class="balade-list_item_title" >{{ balade.title }}</h3>
                 <img src="{{ balade.imgUrl }}" alt="{{ balade.title }}" class="balade-list_item_image">
                 <div class="balade-info">
-                    <div>{{ balade.date | date: 'dd/MM/yyyy à HH:mm'}}</div>
-                    <div>{{ balade.location }}</div>
-                    <div>{{ balade.kilometers }}</div>
+                    <div class="balade-info_item">{{ balade.location }}</div>
+                    <div class="balade-info_item">{{ balade.date | date: 'dd/MM/yyyy à HH:mm'}}</div>
+                    <div class="balade-info_item">{{ balade.kilometers }}km</div>
                 </div>
                 <div>{{ balade.description }}</div>
             </div>
-        </div>
     </div>
 </main>
