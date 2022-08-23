@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
 import { InscriptionComponent } from './components/inscription/inscription.component';
+import { BaladeListComponent } from './components/balade-list/balade-list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { InscriptionComponent } from './components/inscription/inscription.compo
     HomeComponent,
     HeaderComponent,
     ConnexionComponent,
-    InscriptionComponent
+    InscriptionComponent,
+    BaladeListComponent
   ],
   imports: [
     BrowserModule,
