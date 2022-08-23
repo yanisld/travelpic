@@ -1,7 +1,7 @@
 <main class="main">
     <div class="categories-list">
         <div class="categories-list_item" *ngFor="let category of categories" [ngStyle]="{'background-image': 'url(' + category.imgUrl + ')'}">
-            <a href="#" class="categories-list_item_title">
+            <a routerLink="category/{{ category.id }}/balade" class="categories-list_item_title">
                 <span>{{ category.title | uppercase }}</span>
             </a>
         </div>

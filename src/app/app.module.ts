@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
 import { InscriptionComponent } from './components/inscription/inscription.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BaladeListComponent } from './components/balade-list/balade-list.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     ConnexionComponent,
     InscriptionComponent,
-    FooterComponent
+    FooterComponent,
+    BaladeListComponent
   ],
   imports: [
     BrowserModule,

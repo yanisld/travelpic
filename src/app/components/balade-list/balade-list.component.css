@@ -1,0 +1,35 @@
+.main {
+    max-width: 1600px;
+    margin:0 auto;
+    padding: 40px 0;
+}
+.balade-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.balade-list_item {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-height: 400px;
+    border-radius: 5px;
+    padding: 20px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.balade-list_item_title {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+.balade-list_item_image {
+    margin: 10px 0;
+}
+.balade-info {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+}
+.balade-info_item {
+    margin-right: 40px;
+}
