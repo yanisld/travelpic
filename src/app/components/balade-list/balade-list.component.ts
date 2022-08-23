@@ -11,11 +11,13 @@ import { BaladeService } from 'src/app/services/balade.service';
 export class BaladeListComponent implements OnInit {
 
   balades!: Balade[];
+  id!: number;
 
   constructor(private baladeService: BaladeService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.baladeService.getBaladeByCategory(this.route.snapshot.params['idCategory']).subscribe(result => { this.balades = result });
+    this.id = this.route.snapshot.params['idCategory'];
+    this.baladeService.getBaladeByCategory(this.id).subscribe(result => { this.balades = result });
   }
 
 }
