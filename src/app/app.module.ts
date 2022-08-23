@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
 import { InscriptionComponent } from './components/inscription/inscription.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { InscriptionComponent } from './components/inscription/inscription.compo
     HomeComponent,
     HeaderComponent,
     ConnexionComponent,
-    InscriptionComponent
+    InscriptionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
